@@ -1,0 +1,44 @@
+@font-face {
+	font-family: "Montserrat";		
+	src: url("./Montserrat-Medium.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+header .navbar {
+    background-color: #0063af;
+}
+
+
+.navbar-title {
+    background-image: url('../img/aphp-logo-white.png');
+    height: 58px;  
+    width: 299px;
+}
+
+.btn-primary-aphp {
+	background-color: rgb(21,61,138);
+	padding: 6px 15px;
+	font-weight: 500;
+	color: #fff;
+	font-family: Montserrat;
+}
+
+.btn-primary-aphp:hover {
+	color: #fff;
+}
+
+.navbar-pf {
+	border: none;
+}
+.navbar-pf .navbar-header {
+	border: none;
+}
+
+.navbar-pf .navbar-utility {
+	border: none;
+}
+
+.navbar-pf .navbar-utility > li + li {
+	border: none;
+}

@@ -1,0 +1,91 @@
+@font-face {
+	font-family: "Montserrat";		
+	src: url("./Montserrat-Medium.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.login-pf body {
+	background: none;
+	height: 100%;
+	background-color: #fff;
+}
+
+.aphp-header {	
+	background-color: #0063af;
+	height: 80px;
+	padding: .75rem 0;
+}
+
+.aphp-header .content {
+	
+}
+
+.aphp-header .content img {
+	margin: 0 auto;
+	display: block;
+}
+
+.login-pf-page {
+    position: absolute;
+	top: 50%;
+    transform: translateY(-50%);
+	width: 100%;
+}
+
+.btn-aphp {
+	background-color: rgb(21,61,138);
+	padding: 6px 15px;
+	font-weight: 500;
+	color: #fff;
+	font-family: Montserrat;
+}
+
+.btn-aphp:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.login-pf-header h1 {
+	font-family: Montserrat
+}
+
+.form-group .control-label {
+	font-family: 'Open sans';
+}
+
+li.login-social-link {
+	margin-bottom: 1rem;
+}
+
+li.login-social-link:last-child {
+	margin-bottom: 0;
+}
+
+.kc-social-icon-text {
+	margin-left: .75rem;
+}
+
+.login-pf-page .login-social-link a{
+	display: flex;
+align-items: center;
+justify-content: center;
+	font-family: Montserrat;
+	background-color: rgb(21,61,138);
+	color: #fff;
+	height: 36px;
+}
+
+.login-pf-page .login-social-link a.login-toggle {
+	background-color:  rgb(69,80,91);
+}
+
+
+.login-pf-page .card-pf {
+	border: none;
+	background: #f4f2f2;
+}
+
+#kc-info-wrapper {
+	background-color: inherit;
+}

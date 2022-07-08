@@ -1,0 +1,24 @@
+@font-face {
+	font-family: "Montserrat";		
+	src: url("./Montserrat-Medium.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.navbar-pf .navbar-header {
+  background-color: #0063af;
+}
+
+.navbar-pf .navbar-brand {
+  padding: 0;
+  height: 56px;
+  line-height: 56px;
+  background-image: url('../img/aphp-logo-white.png');
+  height: 58px;
+  background-repeat: no-repeat;
+  width: 299px;
+  background-position: center center;
+  background-size: 299px 58px;
+}
+
+

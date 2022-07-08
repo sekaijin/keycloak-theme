@@ -1,0 +1,6 @@
+{
+    "themes": [{
+        "name" : "aphp",
+        "types": [ "login", "account", "admin" ]
+    }]
+}
